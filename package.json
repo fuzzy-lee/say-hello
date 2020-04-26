@@ -1,0 +1,26 @@
+{
+  "name": "@lswlishiwen/say-hello",
+  "version": "1.0.5",
+  "description": "just a library test demo",
+  "main": "./dist/say-hello.js",
+  "scripts": {
+    "build": "webpack --config script/webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzzy-lee/say-hello.git"
+  },
+  "keywords": [],
+  "author": "lishiwen <1071186443@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuzzy-lee/say-hello/issues"
+  },
+  "homepage": "https://github.com/fuzzy-lee/say-hello#readme",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
